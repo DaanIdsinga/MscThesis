@@ -8,3 +8,4 @@ This folder contains the basis of the semi-distributed HBV model. The basic mode
 - HBV_run.py contains a run of the complete Geul catchment, with calibrated parameters by Thewissen (2022).
 
 # References
+Thewissen, A. (2022). Flood event of July 2021: How extreme were the floods in the Ahr, Vesdre andGeul? Retrieved 13-09-2023, from http://resolver.tudelft.nl/uuid:a7436524-e11b-4922-8637-6a74a1868f04
