@@ -1,6 +1,8 @@
 # HBV
 This folder contains the used semi-distributed HBV model, build by Hrachowitz (2021). 
 
+![HBV](HBV_parameters.png)
+
 ## Files
 - HBVMod.py contains the semi-distributed HBV model for hourly timesteps and returns the modelled discharge
 - HBVMod_cal.py can be used for calibrating the HBV model. The function returns the objective and logobjective. These are 1 - Nash-Shutcliff coefficient, for the modelled discharge and the logarithm of the modelled discharge.
