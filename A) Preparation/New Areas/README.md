@@ -19,22 +19,17 @@ The villages are added at <I>Stap 6: Genereren RR model</I> in the modelbuilders
 
 The villages are added with the lines of code below. The corresponding surface levels are retrieved from the available DEM. The coordinates of the nodes are randomly chosen, close to the boundary nodes. 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\linewidth]{Images/Add_paved_nodes.png}
-    \caption{Python code for adding the new villages as paved nodes to D-RR.}
-    \label{fig:nodes}
-\end{figure}
+<p align="center">
+  <img width="750" src="Add_paved_nodes.png">
+</p>
 
-Next, the boundary nodes are defined. These are nodes on the river, at which the excess water from the paved nodes enters the river. This is done by the equation \textit{drrmodel.external\_forcings.add\_boundary\_node()}. The needed parameters for this equation are:
+Next, the boundary nodes are defined. These are nodes on the river, at which the excess water from the paved nodes enters the river. This is done by the equation <I>drrmodel.external\_forcings.add\_boundary\_node()</I>. The needed parameters for this equation are:
 
-\begin{itemize}
-    \item 'id': The name of the boundary node, it should correspond with the 'boundary\_node' in \Cref{fig:nodes};
-    \item 'px': X-coordinate of the boundary node;
-    \item 'py': Y-coordinate of the boundary node.
-\end{itemize}
+* 'id': The name of the boundary node, it should correspond with the 'boundary_node' as defined above;
+* 'px': X-coordinate of the boundary node;
+* 'py': Y-coordinate of the boundary node.
 
-\noindent The boundary nodes are created by the Python code in \Cref{fig:boundaries}. The boundary nodes should be on the river. It is chosen to use the coordinates of the HBV laterals as they are known. Kelmis is added at the HBV lateral 10.001\_B\_1, Montzen is added at 10.001\_B\_4, Gemmenich at 10.001\_B\_6, Plombieres at 10.001\_B\_5, and Hombourg at 13.001\_B\_3.
+The boundary nodes are created by the Python code below. The boundary nodes should be on the river. It is chosen to use the coordinates of the HBV laterals as they are known. Kelmis is added at the HBV lateral 10.001_B_1, Montzen is added at 10.001_B_4, Gemmenich at 10.001_B_6, Plombieres at 10.001_B_5, and Hombourg at 13.001_B_3.
 
 \begin{figure}[H]
     \centering
