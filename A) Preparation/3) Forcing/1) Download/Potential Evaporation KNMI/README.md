@@ -1,4 +1,4 @@
-# Potential Evaporation Data KNMI
+# Download Potential Evaporation Data KNMI
 
 The potential evaporation data of the KNMI weather station in Maastricht is used as input for the hydrological models. The data is downloaded via https://daggegevens.knmi.nl/ and is processed with the Notebook in https://github.com/DaanIdsinga/MscThesis/tree/main/A)%20Preparation/3)%20Forcing/2)%20Preprocess%20Forcing%20Analysis/Process%20KNMI%20data.
 
