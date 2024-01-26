@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10572386.svg)](https://doi.org/10.5281/zenodo.10572386)
 # Safely Building New Houses in the Geul Catchment: How to mitigate the impact of flooding?
 
 This repository contains the used Jupyter Notebooks and scripts during the Msc Thesis of (bron). The goal of this research is to investigate the best suitable subcatchment for the construction of new residential houses for the Geul catchment, in terms of flooding. By doing so, the housing shortage and the letter Water en Bodem Sturend are linked for this catchment. The July 2021 flood event is used as a reference for this research. The first step was investigating the hydrological response of the Geul catchment.
