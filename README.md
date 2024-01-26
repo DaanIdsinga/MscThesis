@@ -11,7 +11,7 @@ The method of this research is defined by:
   <img width="800" src="models.drawio.png">
 </p>
 
-The corresponding Jupyter Notebooks and scripts can be found in this repository. The location of the files are as follows:
+The corresponding Jupyter Notebooks and scripts can be found in this repository. The results of this research can be reproduced by the Notebooks in the folders A, B, and C. More information is given in these folders on the specific notebooks within that step. The location of the blocks in the overview are as follows:
 
 * Forcing: A) Preparation - 3) Forcing
 * Forcing Preprocessing: A) Preparation - 3) Forcing - 2) Processing
