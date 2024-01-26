@@ -16,6 +16,6 @@ The potential evaporation analysis consists of:
 * Potential Evaporation ERA5-Land
 * Potential Evaporation KNMI
 
-The determination of S_${u,max}$ is done by:
+The determination of S_{u,max} is done by:
 * Precipitation NRR
 * Total Evaporation ERA5-Land
