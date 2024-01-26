@@ -3,6 +3,11 @@ This folder contains the used semi-distributed HBV model, build by Hrachowitz (2
 
 ![HBV](HBV_parameters.png)
 
+The basic modelling interface (bmi) is applied to the semi-distributed HBV model.
+
+The package bmipy is required to run the code, https://github.com/csdms/bmi-python.
+
+
 ## Files
 
 
