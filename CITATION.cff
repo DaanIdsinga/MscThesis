@@ -1,0 +1,8 @@
+cff-version: 0.1.0
+title: Safely Building New Houses in the Geul Catchment
+authors:
+  -
+    family-names: Idsinga
+    given-names: Daan
+doi: "https://zenodo.org/doi/10.5281/zenodo.10572385"
+repository-code: 'https://github.com/DaanIdsinga/MscThesis'
