@@ -4,7 +4,8 @@ This part describes the used forcing in the research.
 
 1) Download: How to download the forcing datasets;
 2) Processing: How to process the downloaded forcing datasets;
-3) Forcing files: Contains the used forcing files.
+3) Create forcing files: How to create the forcing files;
+4) Forcing files: Contains the used forcing files.
 
 ## The used forcing datasets
 
