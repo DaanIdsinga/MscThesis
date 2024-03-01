@@ -22,7 +22,7 @@ The corresponding Jupyter Notebooks and scripts can be found in this repository.
 * Distributed Hydrological Model: Models - Wflow_sbm
 * Hydrodynamic Model: Models - D-HYDRO
 * Coupling: B) Scenariobuilding - 7) Couple Laterals
-* Calibration: A) Preparation - 4) Calibration
+* Calibration: A) Preparation - 5) Calibration
 * Scenarios: B) Scenariobuilding
 * Results: C) Evaluation
 
