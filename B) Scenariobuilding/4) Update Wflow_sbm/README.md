@@ -1,6 +1,6 @@
 # 4) Update Wflow_sbm
 
-The corresponding Notebook updates the Wflow_sbm parameterset for the adjusted land cover map. Before running the Notebook, the following steps has to be executed.
+This section updates the Wflow_sbm parameterset for the adjusted land cover map.
 
 ## Step 1: Create scenario parameterset
 
@@ -13,3 +13,7 @@ The goal of this data catalog is to provide simple and standardized access to (l
 In this case, each scenario has a different data catalog file. Herein, the crs, datatype, driver, filesystem, path and nodata value have to be defined. An example:
 
 ![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/9b279467-485f-4cbb-9728-1965864b0c37)
+
+## Step 3: Run Notebook
+
+Execute the steps in the corresponding Notebook
