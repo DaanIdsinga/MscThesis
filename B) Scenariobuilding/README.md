@@ -1,4 +1,4 @@
-B) Scenariobuilding
+# B) Scenariobuilding
 
 This section contains the process to create and execute a scenario of a change in land cover. The process consists of 8 steps:
 
