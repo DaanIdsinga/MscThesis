@@ -26,6 +26,8 @@ The corresponding Jupyter Notebooks and scripts can be found in this repository.
 * Scenarios: B) Scenariobuilding
 * Results: C) Evaluation
 
+If you have questions, you can email daan.idsinga@rhdhv.com
+
 # References
 
 Bouaziz, L. (2022). <I>Samenvatting Wflow Geul</I>
