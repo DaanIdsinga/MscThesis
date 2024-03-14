@@ -55,10 +55,27 @@ The flood extent is larger than the subcatchment outline. So, clip the flood ext
 ![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/040a1efb-f449-4e5e-9488-681246c87535)
 
 ## Step 5: Clip the land cover map by the flood extent
+Clip the land cover map by the flood extent to investigate the land cover types in the flood extent. Use the Clip raster by mask layer function for this:
 
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/f8e1cdb8-0cd3-4e3a-b508-af657d9042a6)
 
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/b15ed989-a7f9-4d88-8063-3d7b93d669d7)
 
+## Step 6: Calculate the land cover distribution in the flood extent
+The distribution of the land cover classes can be estimated in the land cover map of the flood extent. The Zonal Histogram in the Processing Toolbox is used for this:
 
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/bad26efe-a908-4349-9490-4f3e30ead804)
 
+The clipped land cover map at Step 5 is the input in Raster layer. The Vector layer containing zones should contain the flood extent shapefile of Step 4. Finally, save the data as a geopackage at the desired location.
 
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/0090e593-e1ed-4a92-b1ac-25dd475ad806)
 
+## Step 7: Calculate the area of the flood extent
+The area of the flood extent can be calculated by the Open Field Calculator. Select the layer at Step 4 and Toggle editing on. Open the Field Calculator and calculate the area of the flood extent. The result can be seen in the attribute table.
+
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/1b72628a-35f1-491f-8de7-bfc99d8fac76)
+
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/9d8887f9-a979-4376-b123-84dccb7e665f)
+
+## Step 8: Calculate the area per land cover class in the flood extent
+The calculation of the area per land cover class in the flood extent requires more steps. The distribution of the classes is known in Step 6 and the total area of the flood extent is known in Step 7. Combining this, gives the possibility to calculate the area. Use Excel to perform the calculation. In this case, we want to have the area of the urban land cover classes 111 and 112.
