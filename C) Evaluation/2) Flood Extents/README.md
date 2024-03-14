@@ -47,7 +47,17 @@ Enter the contour layer at Input layer. Fill 0.01 at Distance and keep the other
 
 ![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/aa852358-6dbc-4d48-9a72-ecfdd6282b41)
 
-## Step 4: 
+## Step 4: Clip the flood extent shapefile by the subcatchment outline
+The flood extent is larger than the subcatchment outline. So, clip the flood extent by the subcatchment with the clip function:
+
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/55032bf2-8e00-43de-a87d-e2f1bdcfc1a3)
+
+![image](https://github.com/DaanIdsinga/MscThesis/assets/144466847/040a1efb-f449-4e5e-9488-681246c87535)
+
+## Step 5: Clip the land cover map by the flood extent
+
+
+
 
 
 
